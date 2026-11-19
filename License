@@ -1,0 +1,18 @@
+Business Source License 1.1
+
+License text for the Prop Trust Verified Standard (PTVS) Smart Contracts.
+
+Parameters
+
+Licensor:             PropTrust Association (Zug, Switzerland) / Aurema Group LLC
+Licensed Work:        PTVSClaimInjectorV2.sol and associated PTVS v2.0 smart contracts
+The Licensed Work is (c) 2026 Aurelio Tamarit Blay
+Additional Use Grant: You may make use of the Licensed Work for non-commercial
+auditing, academic research, and testing purposes. Any
+commercial deployment or integration requires an explicit
+commercial license from the Licensor.
+Change Date:          2028-11-24
+Change License:       GNU General Public License v3.0 or later
+
+For commercial licensing inquiries, contact: governance@forensics-oracle.org
+Full License Text: https://mariadb.com/bsl11/
