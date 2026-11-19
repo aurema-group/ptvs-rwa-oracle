@@ -39,3 +39,9 @@ npm install
 
 # Compile the contracts
 npx hardhat compile
+
+
+📚 Documentation & Resources
+Full Technical Whitepaper: proptrust-association.ch/standard-ptvs-v2-0
+Book: PTVS v2.0: The Autonomous Physical Oracle (Available on Google Play Books & Amazon)
+Contact: governance@forensics-oracle.org
