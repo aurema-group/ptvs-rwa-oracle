@@ -1,0 +1,141 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "ptvs": "https://proptrust-association.ch/ns/ptvs#",
+      "rfc": "https://proptrust-association.ch/rfc#",
+      "doi": "https://doi.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@context": [
+        "https://schema.org",
+        {
+          "ptvs": "https://proptrust-association.ch/ns/ptvs#",
+          "erc3643": "https://erc3643.org/ns#",
+          "doi": "https://doi.org/"
+        }
+      ],
+      "@id": "https://proptrust-association.ch/standards/ptvs-v1.0#node",
+      "@type": [
+        "TechArticle",
+        "DefinedTermSet",
+        "ptvs:StandardSpecificationNode"
+      ],
+      "name": "Prop Trust Verified Standard v1.0 (PTVS v1.0)",
+      "alternateName": "PTVS-1.0 Foundational Physical Oracle Framework",
+      "version": "1.0.0",
+      "datePublished": "2026-07-15",
+      "inLanguage": [
+        "en",
+        "es"
+      ],
+      "identifier": [
+        "doi:10.5281/zenodo.21719175",
+        "hal:hal-05713062v1",
+        "ssrn:7245361"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Aurelio Tamarit Blay",
+        "identifier": "https://orcid.org/0009-0007-5824-3602"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PropTrust Association",
+        "location": "Zug, Switzerland"
+      },
+      "description": "Foundational specification bridging on-site forensic engineering inspections with ERC-3643 / ONCHAINID smart contracts via deterministic cryptographic state injection.",
+      "ptvs:coreCapabilities": [
+        "On-site forensic engineering & NDT physical asset verification",
+        "Deterministic cryptographic evidence hashing and timestamping",
+        "Direct ERC-3643 / ONCHAINID compliance claim injection (PTVSClaimInjector.sol)",
+        "Prevention of static PDF-only tokenization blind spots"
+      ],
+      "ptvs:supersedingVersion": {
+        "@id": "https://proptrust-association.ch/standards/ptvs-v2.0#node",
+        "name": "PTVS v2.0"
+      }
+    },
+    {
+      "@context": [
+        "https://schema.org",
+        {
+          "ptvs": "https://proptrust-association.ch/ns/ptvs#",
+          "rfc": "https://proptrust-association.ch/rfc#",
+          "doi": "https://doi.org/"
+        }
+      ],
+      "@id": "https://proptrust-association.ch/standards/ptvs-v2.0#node",
+      "@type": [
+        "TechArticle",
+        "DefinedTermSet",
+        "ptvs:StandardSpecificationNode"
+      ],
+      "name": "Prop Trust Verified Standard v2.0 (PTVS v2.0)",
+      "alternateName": "PTVS-2.0 Autonomous Physical-State Oracle & Risk Engine",
+      "version": "2.0.0",
+      "datePublished": "2026-11-18",
+      "inLanguage": [
+        "en",
+        "es"
+      ],
+      "identifier": [
+        "doi:10.5281/zenodo.24322146"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Aurelio Tamarit Blay",
+        "identifier": "https://orcid.org/0009-0007-5824-3602"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PropTrust Association",
+        "location": "Zug, Switzerland"
+      },
+      "license": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://mariadb.com/bsl11/"
+      ],
+      "ptvs:supersedesVersion": {
+        "@id": "https://proptrust-association.ch/standards/ptvs-v1.0#node",
+        "name": "PTVS v1.0"
+      },
+      "description": "Institutional zero-trust physical verification oracle combining hardware-attested edge capture (RFC-004), confidential planetary InSAR telemetry in AMD SEV-SNP enclaves (RFC-005), Zero-Knowledge solvency proofs (RFC-006), and deterministic Basel III SCO60 / MiCA dynamic collateral haircuts (RFC-007).",
+      "ptvs:normativeModules": [
+        {
+          "@id": "rfc:RFC-004",
+          "name": "Hardware-Attested Edge Capture",
+          "mechanism": "Secure Enclave / StrongBox + Galileo OSNMA + EU eIDAS 2.0 Qualified Electronic Signatures (QES)"
+        },
+        {
+          "@id": "rfc:RFC-005",
+          "name": "Privacy-Preserving Planetary Telemetry",
+          "mechanism": "Sentinel-1 SAR/InSAR processed inside Google Cloud Confidential Space (AMD SEV-SNP) with K-anonymity >= 25 km2"
+        },
+        {
+          "@id": "rfc:RFC-006",
+          "name": "Zero-Knowledge Physical Solvency Vaults",
+          "mechanism": "Groth16 / Plonk ZK-SNARK solvency proofs and nullifier registries preventing asset coordinate or valuation leakage"
+        },
+        {
+          "@id": "rfc:RFC-007",
+          "name": "Dynamic Risk & Parametric Escrow",
+          "mechanism": "Continuous Physical Integrity Index (Ifis 0-10000 bps), Basel III SCO60 dynamic haircuts, Hollow State Reversion, and milestone parametric escrow"
+        }
+      ],
+      "ptvs:evolutionDeltaFromV1": [
+        "Adds confidential compute isolation (AMD SEV-SNP) and K-anonymity obfuscation for institutional privacy",
+        "Adds continuous Sentinel-1 InSAR structural/geotechnical monitoring between on-site inspections",
+        "Adds Zero-Knowledge solvency proofs (ZK-SNARKs) for on-chain regulatory verification without metadata exposure",
+        "Automates Basel III SCO60 dynamic collateral haircuts, Hollow State transfer freezes, and parametric escrow"
+      ],
+      "mainEntityOfPage": [
+        "https://proptrust-association.ch/standard-ptvs-v2-0",
+        "https://github.com/aurema-group/ptvs-rwa-oracle",
+        "https://forensics-oracle.org/verify/ptvs-v2-0-basel-iii-sco60-mica-regulatory-capital-simulator/"
+      ]
+    }
+  ]
+}
