@@ -43,8 +43,7 @@ npx hardhat compile
 PTVS v2.0 solves the limitation of static evidence by introducing continuous telemetry" y "governance rules for PTCE experts
 ---
 
-#### **ARCHIVO 2: `LICENSE`** (El escudo legal)
-*Protege tu propiedad intelectual mientras permite la auditoría pública.*
+#### **ARCHIVO 2: `LICENSE`*
 
 ```text
 Business Source License 1.1
