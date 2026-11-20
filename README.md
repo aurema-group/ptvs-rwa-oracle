@@ -40,7 +40,7 @@ npm install
 # Compile the contracts
 npx hardhat compile
 
-
+PTVS v2.0 solves the limitation of static evidence by introducing continuous telemetry" y "governance rules for PTCE experts
 ---
 
 #### **ARCHIVO 2: `LICENSE`** (El escudo legal)
