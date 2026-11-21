@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this reference implementation or architecture in academic research, institutional due diligence, or technical systems, please cite it using the metadata below."
+title: "Prop Trust Verified Standard (PTVS v2.0) — Reference Oracle & Claim Injection Architecture"
+version: 2.0.0
+date-released: 2026-11-01
+authors:
+  - family-names: "Tamarit Blay"
+    given-names: "Aurelio"
+    orcid: "https://orcid.org/0009-0007-5824-3602"
+    affiliation: "PropTrust Association / Aurema Group LLC"
+repository-code: "https://github.com/aurema-group/ptvs-rwa-oracle"
+url: "https://forensics-oracle.org/"
+license: "BUSL-1.1"
+keywords:
+  - "Real World Assets"
+  - "RWA Tokenization"
+  - "Physical Oracle"
+  - "ERC-3643"
+  - "MiCA"
+  - "Basel III"
+  - "eIDAS 2.0"
+  - "Confidential Computing"
+  - "Zero-Knowledge Proofs"
+preferred-citation:
+  type: article
+  title: "Bridging the Physical Oracle Gap in Real-World Asset Tokenization: A Multi-Layer Verification Framework with Confidential Computing and Zero-Knowledge Proofs"
+  authors:
+    - family-names: "Tamarit Blay"
+      given-names: "Aurelio"
+      orcid: "https://orcid.org/0009-0007-5824-3602"
+  year: 2026
+  journal: "SSRN Electronic Journal"
+  identifiers:
+    - type: doi
+      value: "10.5281/zenodo.24322146"
+      description: "CERN Zenodo Canonical Technical Specification"
+    - type: other
+      value: "SSRN:7732378"
+      description: "SSRN Working Paper Abstract ID"
